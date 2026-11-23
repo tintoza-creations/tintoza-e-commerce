@@ -360,20 +360,7 @@ export default function OwnerPortalPage() {
       {/* SIDEBAR NAVIGATION                       */}
       {/* ======================================= */}
       <aside className="w-full md:w-80 bg-[#F2EAE0] border-r border-[#DEC49E]/60 flex flex-col shrink-0">
-        {/* Brand header */}
-        <div className="p-6 border-b border-[#DEC49E]/50">
-          <Link href="/" className="flex flex-col gap-2 group">
-            <img
-              src="/images/logo/logo.png"
-              alt="TINTOZA"
-              className="h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
-            />
-            <span className="text-[11px] uppercase tracking-[0.22em] text-[#8C6F54] font-sans font-bold block">
-              Atelier Director Desk
-            </span>
-          </Link>
-        </div>
-
+      
         {/* Navigation Sections */}
         <nav className="p-5 space-y-7 flex-1 overflow-y-auto font-sans">
           {/* SECTION: BUSINESS */}
